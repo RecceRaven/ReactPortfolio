@@ -1,0 +1,8 @@
+.profile-picture img {
+    border-radius: 50%;
+}
+
+.about-me-container {
+    border-style: none;
+   text-align: center;
+}

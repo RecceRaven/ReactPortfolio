@@ -1,0 +1,16 @@
+
+.section {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Minimum height of 100% of the viewport height */
+    padding: 3rem 1rem; /* Optional: Adjusts the padding */
+  }
+  
+  .contact-card {
+    max-width: 400px; /* Set the max-width for the card */
+    width: 100%; /* Makes the card expand to the max-width */
+    margin: auto; /* Centers the card in the flex container */
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Optional: Adds some shadow for better visibility */
+  }
+  

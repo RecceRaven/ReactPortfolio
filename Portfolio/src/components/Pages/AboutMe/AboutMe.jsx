@@ -1,11 +1,15 @@
 import React from 'react';
-
+import "../AboutMe/aboutMe.css";
 const AboutMe = () => {
   return (
-    <section className="section">
-      <div className="container">
-        <h1 className="title">About Me</h1>
-        <div className="content">
+    <section className="section about-me">
+      <div className="about-me-container">
+        <div className="social-links">
+          <a href="https://github.com/yourUsername" target="_blank" rel="noopener noreferrer">GitHub</a> |
+          <a href="https://linkedin.com/in/yourUsername" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+          <a href="https://twitter.com/yourUsername" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </div>
+        <div className="bio-content">
           <p>
             Hello! I'm Anthony Ramdeen, a passionate web developer with a focus on creating
             engaging and efficient user experiences. With a background in [Your Background],
@@ -18,16 +22,10 @@ const AboutMe = () => {
             goal is to build applications that not only meet user needs but also are scalable,
             maintainable, and performant.
           </p>
-          <p>
-            Here are a few technologies I've been working with recently:
-          </p>
-          <ul>
-            <li>React & Redux</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-          </ul>
+     
+        </div>
+        <div className="profile-picture">
+          <img src="https://avatars.githubusercontent.com/u/149850541?v=4" alt="Anthony Ramdeen"/>
         </div>
       </div>
     </section>

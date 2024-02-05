@@ -4,22 +4,28 @@ import anime from 'animejs';
 
 const SplashPage = () => {
   const navigate = useNavigate();
-  const buttonRef = useRef(null); // Create a ref for the button
+  const buttonRef = useRef(null);
 
   const handleClick = () => {
-    anime({
-        targets: 'button',
-        scale: [
-          {value: .7, duration: 500, easing: 'easeOutSine'},
-          {value: 1, duration: 500, easing: 'easeInOutQuad'}
-        ],
-        rotate: '1turn',
-        loop: false,
-        direction: 'alternate',
+    anime.timeline({
+      complete: () => navigate('/aboutme')
+    })
+    .add({
+      targets: buttonRef.current,
+      scale: [
+        {value: .1, easing: 'easeOutSine', duration: 500},
+        {value: 1, easing: 'easeInOutQuad', duration: 1200}
+      ],
+      rotate: {
+        value: '+=2turn', // rotates by two full turns
         easing: 'easeInOutSine',
-        complete: () => navigate('/aboutme')
-      });
-      
+        duration: 1800,
+      },
+      borderRadius: ['0%', '100%'], // Morphs the button into a circular shape
+      duration: 1600,
+      easing: 'easeInOutQuad',
+    })
+;
   };
 
   return (
@@ -30,14 +36,14 @@ const SplashPage = () => {
       alignItems: 'center',
       height: '100vh',
       width: '100vw',
-      backgroundImage: 'url("https://images.unsplash.com/photo-1536599018102-9f803c140fc1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzM5MTA3fHxlbnwwfHx8fHw%3D")',
+      backgroundImage: 'url("https://wallpaperxyz.com/wp-content/uploads/FUll-HD-1080p-Wallpaper-Full-HD-Free-Download-PC-Laptop-MacOS-Wallpaperxyz.com-48.jpg")',
       backgroundSize: 'cover',
-      backgroundPosition: 'center', 
+      backgroundPosition: 'center',
     }}>
       <button 
-        className="button is-large is-primary" 
-        onClick={handleClick}
-        ref={buttonRef} // Attach the ref to the button
+        className="button is-large enter-button" 
+        onClick={handleClick} 
+        ref={buttonRef}
       >
         Enter
       </button>
