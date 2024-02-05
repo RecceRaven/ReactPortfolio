@@ -4,6 +4,9 @@ const AboutMe = () => {
   return (
     <section className="section about-me">
       <div className="about-me-container">
+      <div className="profile-picture">
+          <img src="https://avatars.githubusercontent.com/u/149850541?v=4" alt="Anthony Ramdeen"/>
+        </div>
         <div className="social-links">
           <a href="https://github.com/yourUsername" target="_blank" rel="noopener noreferrer">GitHub</a> |
           <a href="https://linkedin.com/in/yourUsername" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
@@ -24,9 +27,7 @@ const AboutMe = () => {
           </p>
      
         </div>
-        <div className="profile-picture">
-          <img src="https://avatars.githubusercontent.com/u/149850541?v=4" alt="Anthony Ramdeen"/>
-        </div>
+
       </div>
     </section>
   );

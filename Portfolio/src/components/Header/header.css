@@ -4,18 +4,40 @@
     box-sizing: border-box;
   }
 
+:root {
+    --purple: #491395;
+    --bone: #F9DBBB;
+    --red: #9E0F0F;
+    --babyblue: #19F5FF;
+    --blue: #0F0090;
+    --teal: #07F1D9;
+    --green: #00CD1C;
+    --darkpurple: #210942;
+
+
+
+}
+
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .navbar {
     width: 100%; /* Ensure navbar takes the full width */
     padding: 0;
     margin: 0;
+    background-color: var(--purple);
+ 
+}
+
+.navbar a {
+    color: var(--bone);
+    background-color: transparent;
 }
 
 .navbar, .footer {
