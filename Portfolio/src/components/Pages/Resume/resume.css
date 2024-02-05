@@ -1,0 +1,29 @@
+.resume {
+
+text-align: center;
+line-height: 3;
+}
+
+.resume h2 {
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--teal);
+    text-decoration: underline;
+
+}
+
+.resume h1 {
+    color: var(--teal);
+}
+
+.resume p {
+    color: var(--grey);
+}
+
+.resume h3 {
+    color: var(--grey);
+}
+
+.resume li {
+    color: var(--grey);
+}

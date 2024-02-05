@@ -8,6 +8,10 @@
     background-color: black;
 }
 
+.card:hover {
+    box-shadow: 3px 3px 10px 0px var(--darkpurple);
+}
+
 .card-content p {
     color: var(--bone)
 }
@@ -17,7 +21,13 @@
 }
 
 #portBtn {
-    background-color: var(--blue);
+    background-color: var(--darkpurple);
     border-style: none;
     color: var(--teal);
+    transition-duration: 200ms;
+}
+
+#portBtn:hover {
+    background-color: var(--teal);
+    color: var(--darkpurple);
 }

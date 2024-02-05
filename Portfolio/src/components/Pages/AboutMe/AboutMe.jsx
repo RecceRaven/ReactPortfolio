@@ -15,9 +15,7 @@ const AboutMe = () => {
         <div className="bio-content">
           <p>
             Hello! I'm Anthony Ramdeen, a passionate web developer with a focus on creating
-            engaging and efficient user experiences. With a background in [Your Background],
-            I've developed a keen eye for design and a strong understanding of user-centric
-            principles.
+            engaging and efficient user experiences.
           </p>
           <p>
             I specialize in frontend technologies, including React, JavaScript, HTML, and CSS,

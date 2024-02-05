@@ -1,32 +1,32 @@
 import React from 'react';
-
+import "../Resume/resume.css"
 const Resume = () => {
   return (
     <div className="resume">
       <header className="resume-header">
-        <h1>Jane Doe</h1>
-        <p>Email: janedoe@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/janedoe</p>
+        <h1>Anthony Ramdeen</h1>
+        <p>Email: Anthonyramdeen@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/anthony</p>
       </header>
       <section className="summary">
         <h2>Summary</h2>
-        <p>Highly motivated and skilled professional with extensive experience in software development, looking for opportunities to leverage coding skills in a challenging environment.</p>
+        <p>A detail oriented,  and reliable worker with a  passion for problem solving, and working in harmony with technology.</p>
       </section>
       <section className="education">
         <h2>Education</h2>
         <ul>
-          <li>B.S. in Computer Science, University of Somewhere, 2015-2019</li>
-          <li>M.S. in Software Engineering, Institute of Technology, 2019-2021</li>
+          <li>Georges Vanier Secondary School - 2008 </li>
+          <li>University of Toronto Full Stack Developer Bootcamp</li>
         </ul>
       </section>
       <section className="experience">
         <h2>Experience</h2>
         <div>
-          <h3>Software Developer - XYZ Corp, Jan 2021 - Present</h3>
-          <p>Developed and maintained multiple high-traffic web applications, leading to a 20% increase in customer satisfaction. Utilized technologies include React, Node.js, and AWS.</p>
+          <h3>Soldier - Canadian Armed Forces, Oct 2009 - Present</h3>
+          <p>Maintain a variety of firearms, vehicles, and equipment in austere environments. Deployed domestically to fight flooding, and forest fires. Work as part of a team or in a leadership role in both administrative and combat roles.</p>
         </div>
         <div>
-          <h3>Junior Developer - ABC Technologies, Jul 2019 - Dec 2020</h3>
-          <p>Assisted in the development of an internal project management tool, which improved team productivity by 15%. Gained experience in Agile methodologies and RESTful API integration.</p>
+          <h3>Custom Fabricator - Self Employed, Jan 2018 - Dec 2021</h3>
+          <p>Set up and operate fabricating machines, such as saws, routers, grinders, and drill presses, to bend, cut, form, punch, and drill or otherwise form and assemble metal, wood, and plastic components.</p>
         </div>
       </section>
     </div>

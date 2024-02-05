@@ -21,26 +21,26 @@
   }
 
   #contactCard p {
-    color: var(--teal);
+    color: var(--grey);
   }
 
   #contactCard label {
-    color: var(--babyblue);
+    color: var(--teal);
   }
 
   #contactCard h1 {
-    color: var(--babyblue);
+    color: var(--teal);
   }
 
   #contactCard input {
     background-color: var(--purple);
     border-style: none;
-    color: var(--babyblue);
+    color: var(--grey);
   }
 
   #contactCard textarea {
     background-color: var(--purple);
     border-style: none;
-    color: var(--babyblue);
+    color: var(--grey);
   }
   

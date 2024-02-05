@@ -5,4 +5,9 @@
 .about-me-container {
     border-style: none;
    text-align: center;
+   line-height: 2;
+}
+
+.about-me-container p {
+    color: var(--grey)
 }
