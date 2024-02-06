@@ -1,24 +1,46 @@
 .button {
-    background-color: transparent;
+    background-color: var(--darkpurple);
     border-style: none;
-    color:red;
+    color: var(--babyblue);
+    overflow: hidden;
+    transition-duration: 200ms;
 
 }
 
-/* Add this to your CSS file */
+.button::after {
+  /* Shimmer effect */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: left 0.4s ease;
+  color: var(--teal);
+}
+
+.button:hover::after {
+  left: 100%;
+  color: var(--teal);
+}
+
+
+
 .button-container {
     position: relative;
     display: inline-block;
   }
   
-  .sweep-effect {
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start from the left */
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, rgba(255,255,255,0.5), transparent);
-    z-index: 1;
-    pointer-events: none; /* Allow clicks to pass through */
-  }
+#mainTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+  color: var(--teal);
+  text-shadow: 0px 0px 7px #000000;
+}
   

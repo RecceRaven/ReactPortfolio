@@ -125,7 +125,7 @@ const ContactPage = () => {
                   </div>
 
                   <div className="control">
-                    <button className="button is-primary" type="submit">Send</button>
+                    <button className="button is-large" type="submit">Send</button>
                   </div>
                 </form>
               </div>

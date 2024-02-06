@@ -12,18 +12,38 @@ line-height: 3;
 
 }
 
-.resume h1 {
-    color: var(--teal);
-}
-
-.resume p {
+p {
     color: var(--grey);
 }
 
-.resume h3 {
+.title.is-4 {
     color: var(--grey);
 }
 
-.resume li {
+.title.is-5 {
+    color: #FF8000;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.box li {
     color: var(--grey);
+}
+
+#cenColumn {
+    text-align: center;
+}
+
+.box {
+    background: linear-gradient(to bottom, #210942 0%, #000000 100%);
+}
+
+.subtitle.is-6{
+    color: var(--bone);
+    font-size: larger;
+}
+
+#info {
+    color: var(--gold);
+    text-align: center;
 }

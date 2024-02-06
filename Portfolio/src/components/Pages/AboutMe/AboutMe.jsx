@@ -8,7 +8,7 @@ const AboutMe = () => {
           <img src="https://avatars.githubusercontent.com/u/149850541?v=4" alt="Anthony Ramdeen"/>
         </div>
         <div className="social-links">
-          <a href="https://github.com/yourUsername" target="_blank" rel="noopener noreferrer">GitHub</a> |
+          <a href="https://github.com/RecceRaven" target="_blank" rel="noopener noreferrer">GitHub</a> |
           <a href="https://linkedin.com/in/yourUsername" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
           <a href="https://twitter.com/yourUsername" target="_blank" rel="noopener noreferrer">Twitter</a>
         </div>

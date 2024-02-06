@@ -26,6 +26,7 @@
 
   #contactCard label {
     color: var(--teal);
+    font-size: larger;
   }
 
   #contactCard h1 {

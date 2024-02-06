@@ -1,5 +1,5 @@
 .footer {
- background-color: var(--purple);
+    background: linear-gradient(to bottom, #000000 0%, #491395 100%);
  color: var(--bone);
 }
 

@@ -14,6 +14,7 @@
     --green: #00CD1C;
     --darkpurple: #210942;
     --grey: #DFD9E2;
+    --gold: #FFD500;
 
 
 
@@ -32,24 +33,26 @@ body, html {
     width: 100%; /* Ensure navbar takes the full width */
     padding: 0;
     margin: 0;
-    background-color: var(--purple);
+    background: linear-gradient(to bottom, #491395 0%, #000000 100%);
     transition-duration: 200ms;
+    height: 100px;
  
 }
 
 .navbar a {
-    color: var(--bone);
+    color: var(--grey);
     background-color: transparent;
     transition-duration: 200ms;
 }
 
 .navbar a:hover {
-    background-color: var(--purple);
+    background-color: transparent;
     color: var(--teal);
 }
 
-.navbar-link is-active {
-    background-color: black;
+a.navbar-item.is-active {
+    background-color: transparent;
+    color: black;
 }
 
 .navbar, .footer {

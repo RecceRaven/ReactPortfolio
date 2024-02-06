@@ -6,10 +6,7 @@
     padding: 20px;
     padding-top: 30px;
     background-color: black;
-}
-
-.card:hover {
-    box-shadow: 3px 3px 10px 0px var(--darkpurple);
+    text-align: center;
 }
 
 .card-content p {
