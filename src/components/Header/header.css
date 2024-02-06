@@ -45,14 +45,19 @@ body, html {
     transition-duration: 200ms;
 }
 
-.navbar a:hover {
+a.navbar-item:hover {
     background-color: transparent;
     color: var(--teal);
 }
 
-a.navbar-item.is-active {
+a.navbar-item {
     background-color: transparent;
-    color: black;
+    color: var(--grey);
+}
+
+.navbar-item-active {
+    background-color: transparent; /* Active background color */
+    color: var(--teal) !important; /* Active text color */
 }
 
 .navbar, .footer {
@@ -65,4 +70,8 @@ a.navbar-item.is-active {
   .container.is-fluid {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .navbar-menu.is-active {
+
   }
